@@ -1,0 +1,115 @@
+html {
+  background: url("img/rainbowBG.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 25px 0;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  display: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+hr {
+  width: 500px;
+}
+
+.rgb-code {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+input {
+  width: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+#red-in {
+  background: red;
+}
+
+#green-in {
+  background: green;
+}
+
+#blue-in {
+  background: blue;
+}
+
+#black-in {
+  background: black;
+  margin-right: 50px;
+}
+
+#white-in {
+  background: white;
+  color: black;
+}
+
+#display {
+  width: 400px;
+  height: 200px;
+  background: rgb(255, 255, 0);
+  margin: auto;
+}
+
+button {
+  background: grey;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grayIn {
+  background: gray;
+}
+
+#preview-width-in,
+#preview-height-in {
+  background-color: gray;
+}
+
+#preview-height-in,
+#preview-width-in {
+  background: gray;
+}
+
+#display img {
+  width: 100px;
+}
+
+#preview-width-in,
+#preview-height-in {
+  background: gray;
+}
+
+#subtraction {
+  display: none;
+}
